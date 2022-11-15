@@ -1,0 +1,119 @@
+@media (max-width:800px)
+    {
+        body{width:auto;}
+
+        #nav-menu{display:none;}
+
+        #main>#side-menu{
+            width: 78%; 
+            float:none;
+            overflow:hidden;
+            margin-top:20px;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:auto;
+            box-shadow:none;
+            border-top:1px solid #cec0ac;
+            border-bottom:1px solid #cec0ac;
+            box-shadow:inset 1px 0px 20px 3px #988974;
+            padding:10px;}
+
+
+        li.smenu-style{margin: 10px 0 30px 0}
+        li.home-sub{float:inherit;}
+        
+        #main>#main-content{margin: 0 auto; width:80%;float:none}
+         
+        article.main-intro{width:100%;margin: 0 auto}
+
+        h1.header-font{ font-size:3em}
+    }
+    
+    /*전체 페이지 css*/
+    *{margin:0;padding:0;font-family:sans-serif;}
+
+    body{
+
+        margin:0 auto; 
+        background-image:url("img/sherlock_logo.png");
+        background-size: contain;
+        
+    }
+
+    #wrapper{
+        width:960px;
+        padding:10px;
+        overflow:hidden;
+        margin:0 auto;
+        max-width:100%;
+    }
+   /* a태그 text-decoration 일괄 제거. 글씨 black*/
+    
+    a{
+        text-decoration:none;
+        color:rgb(8, 8, 85);
+    }
+
+    a:hover{
+        color:rgb(68, 202, 68);
+        text-shadow:1px -1px 1px rgb(0, 0, 0);
+    }
+
+    
+
+    /*헤더, top menu css*/
+    #header{padding:30px 0 0 0;}   
+    .header-font{word-break:break-all;text-align: center;
+        padding: 0 0 20px 0; font-size:5em;font-style:italic;text-shadow:2px 10px 0px white;}
+
+
+   #nav-menu{ text-shadow:1px -1px 1px rgb(255 255 255);width:95%;border-top:1px solid #cec0ac; border-bottom:1px solid #cec0ac;
+    height:40px;margin-bottom:20px;box-shadow:5px 1px 20px 4px #cec0ac;}
+    .nmenu-style{
+        display:inline-block;
+        font-weight:bold; 
+        font-size:1.0em;
+        list-style:none; 
+        margin:0 60px 0 60px;
+        padding-top:8px; 
+        padding-bottom:8px; 
+    }
+
+    .menu-center{text-align:center;}
+
+    /*메인 css*/
+    #main{overflow:hidden;} 
+    #main-content{float:right; width:80%; }
+    #side-menu{float:left;width:15%;}
+   
+    /*메인 인트로 css*/
+    .intro-header{padding:20px;color:rgb(0, 0, 0);text-align:center;text-shadow:2px 3px 0px #f9f9f9;}
+    .main-intro{background-color:#cec0acdb;width: 95%; box-shadow:inset 1px 0px 20px 3px #988974;padding:0 0 10px 0; border-radius:2%;}
+    .intro-body{color:rgb(0, 0, 0);padding:10px;text-align:center;}
+
+
+    /*사이드메뉴 css*/
+    #side-menu{
+        box-shadow:inset 1px 0px 20px 3px #988974;
+        margin:0 10px 10px 0;
+        padding:10px 10px 0 10px;
+        text-align:center;
+        border-radius:4%;
+        background-color:#cec0acdb;
+        text-shadow:1px -1px 1px rgb(255 255 255);
+    }
+    .smenu-style{
+        list-style:none;
+        margin:10px 0 50px 0;
+        font-size:large;
+        font-weight:bold;
+    }
+    .home-sub{
+        list-style:none;
+        font-size:0.8em;
+        padding:10px 0 0 10px;
+        font-weight:lighter;
+    }
+
+    /*footer css*/
+    #footer{margin:10px 0 0 0;}
