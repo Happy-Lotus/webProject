@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0 initial-scale=1.0 user-scalable=no">
+    <title>main</title>
+    <link rel="stylesheet" href="main.css">
+
+
+    <style>
+        @media (max-width:800px)
+        {
+        article#self-intro{width:100%;margin:20px 0 0 0 }
+        }
+
+    /*self-intro css*/
+   #self-intro{ margin:20px 0 0 0; background-color:#cec0acdb; width:95%;box-shadow:inset 1px 0px 20px 3px #988974;border-radius:2%;}
+   .self-body{font-size:1.2em;color:rgb(0, 0, 0);text-align:center;padding:20px;font-family:Gabriola;}
+   .intro-image{padding:10px;text-align:center;}
+   img{max-width:40%;max-height:40%;margin:10px;box-shadow:3px 2px 20px black;}
+   .self{margin:0 auto;}
+   .intro-image{padding:10px;text-align:center;}
+   img:hover{max-width:50%;margin:0 auto; overflow:hidden;}
+
+    </style>
+   
+</head>
+<body>
+
+    <div id="wrapper">
+
+    <header id="header">
+        <h1 class="header-font"><a href="main.html">SHERLOCK</a></h1> 
+        <nav id="nav-menu">
+            <ul class="menu-center">
+                <li class="nmenu-style"><a href="People.html">등장인물 소개</a></li>
+                <li class="nmenu-style"><a href="series.html">시리즈</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <div id="main">
+
+        <div id="main-content">
+            
+            <article class="main-intro">
+                <div class="intro-header">
+                   <h1>소개</h1>
+                </div>
+
+                <div class="intro-image">    
+                    <img src="img/intro1.gif" alt="셜록홈즈GIF" >
+                    <img src="img/intro2.gif" alt="셜록홈즈GIF">
+                </div>
+                <div class="intro-image">
+                   <img src="img/intro3.gif" alt="셜록홈즈GIF" >
+                   <img src="img/intro4.gif" alt="셜록홈즈GIF" >
+                </div>
+                
+                    <div class="intro-body">
+                    
+                    <p>장르: 범죄, 추리, 드라마</p>
+                    <p>방송 기간: 2010.07.25~2017.01.15 </p>
+                    <p>채널: BBC</p>
+                    <p>출연자: 베네딕트 컴버배치, 마틴 프리먼 등</p>
+                </div>  
+            </article>
+
+            <article id="self-intro">
+                <div class="intro-header">
+                    <h1>자기소개</h1>
+                    <h4>202112660 김희연</h4>
+                </div>
+                <div class="self">
+                    <div class="intro-image">
+                        <img src="img/selfintro.jpg" width="300" >
+                    </div>
+                    <div class="self-body">
+                        <p>안녕하세요. 혹시 영국 드라마 <b>셜록</b>을 보신적 있으신가요? </p>
+                        <p>드라마에 관심이 있는데 시리즈가 많아서 포기하신 분들을 위해 이 페이지를 만들게 되었습니다.</p>
+                        <p>드라마 재밌으니까 꼭 보세요!!</p>
+                        <p>그리고 부족한 페이지이지만 이쁘게 봐주세요!</p>
+                    </div>
+                
+                </div>
+            </article>
+
+        </div>
+
+        <section id="side-menu">
+            <ul class="smenu-center">
+                <li class="smenu-style" ><a href="main.html">홈</a>
+                <ul>
+                    <li class="home-sub"><a href="#main-intro">소개</a></li>
+                    <li class="home-sub"><a href="#self-intro" >자기소개</a></li>
+                </ul></li>
+                <li class="smenu-style"><a href="People.html">등장인물 소개</a></li>
+                <li class="smenu-style"><a href="series.html">시리즈</a></li>
+            </ul>
+           
+        </section>
+
+    </div>
+    <footer id="footer">
+        <audio loop autoplay preload="auto">
+            <source src="openingsong.mp3" type="audio/mp3">
+        </audio>
+    </footer>
+</div> 
+
+</body>
+</html>
