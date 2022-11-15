@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0 minimum-scale=1.0 initial-scale=1.0 user-scalable=no">
+    <title>시리즈</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+    <style>
+@media (max-width:800px)
+    {
+        body{width:auto}
+        article.main-intro{ width:100%}
+        article#choice{width:100%}
+
+    }
+
+   ul.menu-center>li:nth-child(2){text-shadow:1px 1px 0px rgb(68 202 68);}
+   ul.smenu-center>li:nth-child(3){text-shadow:1px 1px 0px rgb(68 202 68);}
+
+    .main-intro{display:flex; flex-direction:column;flex-basis:content;align-content:space-between;align-items:center;}
+    .series-image{display:flex; flex-flow:row wrap;flex-basis:content;justify-content:space-around;}
+    img{max-width:45%;margin-bottom:20px; border-radius:5%;box-shadow:0px 0px 10px 0px #ffffff;}
+
+    /*추천css*/
+    #choice{background-color:rgba(206, 192, 172, 0.859); width: 95%; box-shadow:inset 1px 0px 20px 3px #988974;padding:0 0 10px 0; border-radius:2%;margin-top:20px;}
+   .choice-image{display:flex;flex-flow:row wrap;flex-basis:content;justify-content:space-around;}
+   .choice-body{font-size:1.5em;color:rgb(0, 0, 0);text-align:center;padding:20px;}
+    .style{color:rgb(0, 0, 0);font-size:1.3em;font-weight:bolder;}
+    hr{background-color:#98897487;height:3px;}
+</style>
+</head>
+<body>
+    <div id="wrapper">
+
+        <header id="header">
+            <h1 class="header-font"><a href="main.html">SHERLOCK</a></h1> 
+            <nav id="nav-menu">
+                <ul class="menu-center">
+                    <li class="nmenu-style"><a href="People.html">등장인물 소개</a></li>
+                    <li class="nmenu-style"><a href="series.html">시리즈</a></li>
+                </ul>
+            </nav>
+        </header> 
+    
+        <div id="main">
+            
+            <div id="main-content">
+                
+                <article class="main-intro">
+                    <div class="intro-header">
+                            <h1 id="introd">시리즈</h1>
+                    </div>
+                    <div class="series-image">
+                        <img  src="img/season11.png"class="season1" >
+                        <img src="img/season22.png" class="season2">
+                        <img src="img/season33.png" class="season3">
+                        <img src="img/season44.png" class="season4">
+                    </div>
+                </article>
+                <article id="choice" style="display:none" >
+                    <div class="intro-header">
+                        <h1>추천</h1>
+                    </div>
+                <div id="season1" style="display:none">
+                    <div class="choice-image">
+                        <img src="img/series_s1_1.jpeg">
+                        <img src="img/series_s1_2.jpg">
+                        <img src="img/series_s1_3.jpg">
+                    </div>
+                    <div class="choice-body">
+                        <p class="style">시즌1 - 1화 핑크색 연구</p>
+                        <br>
+                        <p>원작 소설 셜록 홈즈 "주홍색 연구"를 각색했다.</p>
+                        <p>셜록과 왓슨의 첫만남이 돋보이는 화이다.</p>
+                        <p>첫 만남부터 사건을 해결하러 가는데 이 사건의 배후에  "모리아티"라는 인물이 있는 것을 알게 된다.</p>
+                        <p class="style">과연 범인은 누구?</p>
+                    </div>
+                </div>
+
+                <div id="season2"  style="display:none">
+                    <div class="choice-image">
+                        <img src="img/series_s2_1.jpg">
+                        <img src="img/series_s2_2.jpg">
+                        <img src="img/series_s2_3.jpg">
+                    </div>
+                    <div class="choice-body">
+                        <p  class="style">시즌2 - 1화 벨그라비아 스캔들</p>
+                        <p>이 화에서는 원작 소설에서도 나왔던 아이린 애들러가 나온다.
+                        셜록의 형 마이크로프트는 셜록에게 '그 여자'로 통하는 아이린 애들러가 주요 인사의
+                            은밀한 사진을 가지고 있으니 위협이 된다며 사진을 회수하라는 요청을 한다.  아이린 애들러는 순순히 사진을 넘기지 
+                            않고 셜록과 게임을 진행한다.</p>
+                        <p class="style">과연 승리는 누구?</p>
+                    </div>
+                </div>
+                
+                <div id="season3"  style="display:none" >
+                    <div class="choice-image">
+                        <img src="img/series_s3_1.jpg">
+                        <img src="img/series_s3_2.jpg">
+                        <img src="img/series_s3_3.png">
+                    </div>
+                    <div class="choice-body">
+                        <p  class="style">시즌3 - 3화 마지막 서약</p>
+                        <p>왓슨을 불구덩이에 던졌던 인물 매그너슨이 등장한다. 셜록은 매그너슨이 갖고 있는 사람들의
+                            약점을 찾으러 매그너슨의 사무실로 향하고 그곳에서 뜻밖의 사람을 만난다. 
+                        </p>
+                        <p class="style">과연 그 사람은 누구인가?</p>
+                    </div>
+                </div>
+                <div id="season4" style="display:none" >
+                    <div class="choice-image">
+                        <img src="img/series_s4_1.jpg">
+                        <img src="img/series_s4_2.jpeg">
+                        <img src="img/series_s4_3.jpeg">
+                    </div>
+                    <div class="choice-body">
+                        <p  class="style">시즌4 - 3화 마지막 문제</p>
+                        <p>셜록의 여동생 유로스 홈즈가 나온다. 셜록의 가족 중 가장 머리가 좋은 
+                        유로스 홈즈는 정신적으로 문제가 있어 감금되어 있었다.
+                       그런 유로스에게 소식이 날라오고 홈즈 형제와 왓슨은 유로스가 감금되어 있는 곳으로 간다.</p>
+                       <p class="style">유로스는 누구인가?</p>
+                    </div>
+                </div>
+                </article>
+                </div>
+            <section id="side-menu">
+                <ul class="smenu-center">
+                    <li class="smenu-style"><a href="main.html">홈</a>
+                    <ul>
+                        <li class="home-sub"><a href="main.html">소개</a></li>
+                        <li class="home-sub"><a href="main.html">자기소개</a></li>
+                    </ul></li>
+                    <li class="smenu-style"><a href="People.html">등장인물 소개</a></li>
+                    <li class="smenu-style"><a href="series.html">시리즈</a></li>
+                </ul>
+            </section>
+        </div>
+        <footer id="footer">
+            <audio loop autoplay preload="auto">
+                <source src="openingsong.mp3" type="audio/mp3">
+            </audio>
+        </footer>
+    </div>    
+    <script src=jquery.min.js ></script>
+</body>
+</html>
