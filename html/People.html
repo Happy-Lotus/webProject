@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0 minimum-scale=1.0 initial-scale=1.0 user-scalable=no">
+    <title>등장인물 페이지</title>
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+    @media (max-width:800px)
+    {
+        body{width:auto}
+        article.main-intro{ width:100%}
+    }
+
+
+   ul.menu-center>li:first-child{text-shadow:1px 1px 0px rgb(68 202 68);}
+   ul.smenu-center>li:nth-child(2){text-shadow:1px 1px 0px rgb(68 202 68);}
+   
+    /*메인css*/
+    .main-intro{display:flex; flex-direction:column;flex-basis:content;justify-content:stretch;}
+   
+   .people{display:flex;flex-flow:row wrap;justify-content: center;}
+    img{max-width:45%;margin:10px;box-shadow:3px 2px 20px black; border-radius:5%;}
+    .people-body{padding:10px;text-align:center;}
+ 
+
+    hr{background-color:#98897487;height:3px;}
+</style>
+</head>
+<body>
+    <div id="wrapper">
+
+        <header id="header">
+            <h1 class="header-font"><a href="main.html">SHERLOCK</a></h1> 
+            <nav id="nav-menu">
+                <ul class="menu-center">
+                    <li class="nmenu-style"><a href="People.html">등장인물 소개</a></li>
+                    <li class="nmenu-style"><a href="series.html">시리즈</a></li>
+                </ul>
+            </nav>
+        </header> 
+    
+        <div id="main">
+            
+            <div id="main-content">
+                
+                <article class="main-intro">
+                    <div class="intro-header">
+                            <h1>등장인물 소개</h1>
+                        </div>
+                        <hr>
+                        <div class="people">
+
+                   <img src="img/sherlock.jpg" alt="셜록홈즈드라마이미지">
+                        <div class="people-body">
+                           <p><b>배역 이름</b>: 셜록 홈즈</p>
+                           <br>
+                           <p><b>배우명</b> : 베네딕트 컴버배치</p>
+                           <br>
+                           <p><b>설명</b> : 해결해야하는 문제가 없으면 스스로를 산산조각내고 문제가 더 기괴하고 당혹스럽다면
+                               더 좋아하는 고기능 소시오패스 베이커가 탐정이다. 
+                               동료인 존 왓슨 박사와 함께 탐정일을 해 나간다.</p>
+                           <br>
+                           <p><b>명대사</b> : "The name's Sherlock Holmes and the address is 221B Baker Street."</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="people">
+                        <img src="img/watson.jpg" alt="셜록홈즈드라마이미지" >     
+                    <div class="people-body">
+                        <p><b>배역 이름</b>: 존 왓슨</p>
+                        <br>
+                        <p><b>배우명</b> : 마틴 프리먼</p>
+                        <br>
+                        <p><b>성격</b> : 아프가니스탄에서 군의관으로 복무한 후 새로운 삶의 방식을 찾던 중 셜록을 만난다. 같이 일하면서
+                            가끔은 셜록의 차가운 반응에 화도 내지만 셜록을 가장 친한 친구라고 말한다. 
+                        </p>
+                        <br>
+                        <p><b>명대사</b> : "I believe in Sherlock."</p>
+                    </div>
+                    </div>
+                    <hr>
+                    <div class="people">     
+                        <img src="img/모리아티.jpeg" alt="셜록홈즈드라마이미지" >  
+                        <div class="people-body">
+                            <p><b>배역 이름</b>: 제임스 모리아티</p>
+                            <br>
+                            <p><b>배우명</b> : 앤드류 스콧</p>
+                            <br>
+                            <p><b>성격</b> : 원작인 셜록 홈즈 시리즈에서의 악역 "제임스 모리아티"를 재해석한 인물이다.
+                                스스로를 "사설 범죄 자문 전문가"라고 부르며 런던 내 사건 사고들을 기획한다.  
+                            </p>
+                            <br>
+                            <p><b>명대사</b> : "Every fairy tail needs a good old fashioned villain."</p>
+                        </div>
+                     </div>
+                </article>
+            </div>
+
+            <section id="side-menu">
+                <ul class="smenu-center">
+                    <li class="smenu-style"><a href="main.html">홈</a>
+                    <ul>
+                        <li class="home-sub"><a href="main.html">소개</a></li>
+                        <li class="home-sub"><a href="main.html">자기소개</a></li>
+                    </ul></li>
+                    <li class="smenu-style"><a href="People.html">등장인물 소개</a></li>
+                    <li class="smenu-style"><a href="series.html">시리즈</a></li>
+                </ul>
+            </section>
+        </div>
+        <footer id="footer">
+            <audio loop autoplay preload="auto">
+                <source src="openingsong.mp3" type="audio/mp3">
+            </audio>
+        </footer>
+    </div>
+</body>
+</html>
