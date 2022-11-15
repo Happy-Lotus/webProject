@@ -1,0 +1,17 @@
+.before1 {
+    background-color:blue;
+    box-shadow:1px 1px 20px 19px blue;
+}
+
+.after1 {
+    background-color:#ff2020;
+    box-shadow:1px 1px 20px 19px #ff2020;
+}
+
+.before2 {
+    background-color:rgb(255, 255, 255);
+}
+
+.after2 {
+    background-color:#000000;
+}
